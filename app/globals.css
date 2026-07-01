@@ -1,0 +1,47 @@
+/* app/globals.css */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, "Segoe UI", "Noto Sans Thai", Roboto, sans-serif;
+  background: #eef3f7;
+  color: #1a2b3c;
+}
+
+input,
+button {
+  font-family: inherit;
+  font-size: 14px;
+}
+
+input {
+  border: 1px solid #d4dde5;
+  border-radius: 8px;
+  padding: 10px 12px;
+  width: 100%;
+  outline: none;
+}
+
+input:focus {
+  border-color: #2e7d9a;
+  box-shadow: 0 0 0 2px rgba(46, 125, 154, 0.15);
+}
+
+button {
+  border-radius: 8px;
+  padding: 10px 14px;
+  cursor: pointer;
+  border: 1px solid #d4dde5;
+  background: white;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
